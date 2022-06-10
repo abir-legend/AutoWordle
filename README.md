@@ -7,8 +7,11 @@
 ![](https://img.shields.io/github/issues/abir-legend/AutoWordle.svg) 
 
 **Things needed to run**
-- Python
-- pyautogui
+- [Python](https://www.python.org/ "get python from here")
+- [pyautogui](https://pypi.org/project/PyAutoGUI/ "get pyautogui from here")
+
+or just
+  > pip install PyAutoGUI
 
 **Adjustments For Screen optimisation**
 since it uses pyautogui to read pixel color it might not work with displays that are not 1366x768 so to fix that take a full screen screenshot with <table><tr><td>windows key + shift + s</td></tr></table>
